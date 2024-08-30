@@ -1,0 +1,120 @@
+body {
+    margin: 30px;
+    padding: 0 30px;
+    background-color: #252b43;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    padding: 10px 80px 20px;
+    margin-bottom: 50px;
+}
+
+.header h2 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.header .linkes {
+    display: inline-block;
+    padding: 0;
+    margin: 0 150px;
+    font-size: 20px;
+}
+
+.header .linkes a {
+    margin-left: 30px;
+}
+
+.header .register {
+    display: inline-block;
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+.header .register a {
+    margin-left: 30px;
+}
+
+.link-btn {
+    background-color: #00bfff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.content {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.content a:first-child {
+    color: #00bfff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.content .link-btn-border {
+    border: solid 1px #00bfff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: #00bfff;
+}
+
+.cards {
+    text-align: center;
+}
+
+.card {
+    margin-top: 80px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 300px;
+    margin-right: 20px;
+    text-align: left;
+
+}
+
+.card div {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: lightsalmon;
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.card hr{
+    width: 25%;
+    margin-left: 0;
+}
+.card p {
+    margin-top: 20px;
+    color: #252b43;
+}
